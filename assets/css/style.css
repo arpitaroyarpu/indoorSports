@@ -1,0 +1,1234 @@
+/*
+    Template Name: ABC Learning Management
+    Author ----  
+    Description: 
+    Version: 1.0
+
+    Index
+    ====
+    01. Reset CSS
+    02. Header Top Area
+    03. Header Area
+    04. Banner Area
+    05. About Area
+    06. facilities Area
+    07. Instructor Area
+    08. Blogs Area
+    09. Footer Area
+    10. About Area
+    11. Login Banner
+    12. Instructor Area
+    13. Contact Area
+    14. Map Area
+    15. Registration Area
+    16. Student Profile Area
+    17. Wishlist Area
+*/
+
+/* 01. Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100;200;300;400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.common-banner {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+	padding: 230px 0;
+}
+/* 02. Header Top Area */
+.header-top-area {
+    padding: 15px;
+}
+.header-left {}
+.header-left ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+.header-left ul li {
+    margin-right: 46px;
+}
+.header-left ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 67);
+    font-weight: 600;
+    transition: .3s;
+}
+.header-left ul li a:hover{
+    color: rgb(188, 8, 50);
+}
+.header-left ul li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 03. Header Area */
+.header-area {
+    padding-top: 20px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
+.logo{}
+.logo a {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 0 0 45px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.menu ul li {
+    margin-left: 45px;
+}
+.menu ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: rgb(188, 8, 50);
+}
+.booking {
+    margin-left: 30px;
+    border: 1px solid transparent;
+    padding: 10px 43px;
+    background-color: rgb(0, 0, 67);
+    border-radius: 5px;
+    transition: .7s;
+}
+.booking a {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.booking:hover{
+    background-color: rgb(188, 8, 50);
+}
+
+
+.search {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    align-items: center;
+}
+.search input {
+    width: 230px;
+    height: 43px;
+    padding-left: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: 1px solid rgb(0, 0, 67);
+    border-right: none;
+}
+.search a i {
+	border: 1px solid rgb(0, 0, 67);
+	transition: .7s;
+	color: white;
+	border-left: none;
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background: rgb(0, 0, 67);
+}
+.search a:hover{
+    border-color: rgb(188, 8, 50);
+}
+
+/* 04. Banner Area */
+.banner-area {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+    padding: 190px 0;
+	height:120vh;
+}
+.banner-area::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(22, 22, 22);
+    z-index: -2;
+    opacity: .4;
+}
+.banner {
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-top: 80px;
+}
+.banner-info {
+    flex-basis: 60%;
+}
+.banner-info h1, .same-banner h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.banner-info span, .same-banner span{
+    display: block;
+    color: rgb(188, 8, 50);
+    line-height: 53px;
+}
+.banner-info p, .same-banner p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.banner-contact {
+    flex-basis: 30%;
+    border: 1px solid white;
+    padding: 20px;
+    background: white;
+}
+.banner-contact h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 13px;
+    color: black;
+}
+.banner-contact form{}
+.banner-contact input {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.banner-contact textarea {
+    width: 100%;
+    height: 70px;
+    margin-top: 12px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.banner-contact input[type="submit"] {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    border-color: rgb(0, 0, 67);
+    background-color: rgb(5, 13, 240);
+    border-radius: 5px;
+    transition: .3s;
+}
+.banner-contact input[type="submit"]:hover{
+    color: white;
+    border-color: rgb(188, 8, 50);
+    background-color: rgb(188, 8, 50);
+}
+.same-banner {
+    color: white;
+}
+
+/* 05. About Area */
+.about-area {}
+.about{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-info{
+    flex-basis: 550px;
+}
+.about-info span {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(188, 8, 50);
+}
+.about-info h1{
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.about-info p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+    padding-bottom: 25px;
+}
+.about-info a,.link a{
+    border: 1px solid transparent;
+    background-color: rgb(0, 0, 67);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: .3s;
+}
+.about-info a:hover{
+    background-color: rgb(188, 8, 50);
+}
+.about-img {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 557px;
+}
+.single-img {
+    flex-basis: 600px;
+}
+.single-img img {
+    width: 100%;
+}
+.single-images {
+    flex-basis: 275px;
+}
+.single-images img{
+    width: 100%;
+}
+
+/* 06. facilities Area */
+.facilities-area {
+    background-color: rgb(246 246 246);
+}
+.facilities-info {
+    position: relative;
+}
+.facilities-info:before , .wish-info::before, .section-title:before, .customar-info:before, .contact-title:before{
+    position: absolute;
+    content: "";
+    background-color: rgb(188, 8, 50);
+    width: 127px;
+    border: 1px solid transparent;
+    height: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.facilities-info:after , .wish-info::after, .section-title:after, .customar-info:after, .contact-title:after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    border: 1px solid black;
+    height: 15px;
+    background: rgb(0, 0, 67);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.facilities-info h3 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 120px;
+}
+.facilities{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+.single-facilities {
+    flex-basis: 365px;
+    border: 1px solid transparent;
+    background-color: white;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+.single-facilities h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    padding: 33px 0 12px;
+}
+.single-facilities h4{
+    text-align: center;
+    padding-bottom: 13px;
+}
+.single-facilities h4 a {
+    color: rgb(188, 8, 50);
+    font-size: 40px;
+}
+.single-facilities img {
+    width: 100%;
+}
+.single-facilities p {
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    text-align: justify;
+    font-weight: 200;
+    line-height: 23px;
+}
+.link {
+    margin-top: 13px;
+}
+.link a {
+    margin-left: 132px;
+    transition: .3s;
+}
+.link a:hover{
+    background-color: rgb(188, 8, 50);
+} 
+
+/* 07. Instructor Area */
+.instructors-area{}
+.instructors-info {
+    margin-bottom: 35px;
+    position: relative;
+}
+.instructors-info h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(188, 8, 50);
+}
+.instructors-info h4 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+.instructors-info:before, .blog-info:before  {
+    position: absolute;
+    content: "";
+    background-color: rgb(188, 8, 50);
+    width: 127px;
+    border: 1px solid transparent;
+    height: 1px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+.instructors-info:after, .blog-info:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    border: 1px solid black;
+    height: 15px;
+    background: rgb(0, 0, 67);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.instructor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 67px 126px 0;
+}
+.single-instructor{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 285px;
+    transition: .5s;
+    /*border: 2px solid transparent;*/
+    border-radius: 5px;
+}
+.single-instructor::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 67);
+    z-index: 2;
+    opacity: .5;
+    transition: .8s;
+}
+.single-instructor:hover::before{
+    transform: translate(100%);
+}
+/*.single-instructor:hover{
+    border-color: rgb(0, 0, 67);
+}*/
+.single-instructor a{}
+.single-instructor a img{
+    width: 100%;
+}
+.info {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 67);
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    transition: .5s;
+    z-index: 9;
+    transform: translateY(100%);
+}
+.info h1 {
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.info span{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.single-instructor:hover .info{
+    transform: translateY(75%);
+}
+
+/* 08. Blogs Area */
+.blogs-area{
+    background-color: rgb(247, 247, 247);
+}
+.blog-info {
+    margin-bottom: 65px;
+    position: relative;
+}
+.blog-info h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 14px;
+    color: rgb(188, 8, 50);
+}
+.blog-info h1 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-bottom: 35px;
+}
+.blogs{}
+.single-blog {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 30px;
+    border: 1px solid transparent;
+    padding: 25px;
+    background-color: white;
+}
+.single-blog:last-child{
+    margin-bottom: 0;
+}
+.blog-img {
+    flex-basis: 100px;
+}
+.blog-img img {
+    width: 100%;
+}
+.review {
+    flex-basis: 950px;
+}
+.review h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+}
+.review p{
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+
+/* 09. Footer Area */
+.footer-area {
+    background-color: rgb(0, 0, 67);
+    padding: 38px 0;
+}
+.footer{}
+.foot-outer{}
+.foot-outer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0px 440px;
+    padding-top: 29px;
+}
+.foot-outer ul li{}
+.foot-outer ul li a{}
+.foot-outer ul li a i {
+    width: 41px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    transition: .7s;
+}
+.foot-outer ul li a i:hover{
+    color: rgb(188, 8, 50);
+    border-color: white;
+    background-color: white;
+}
+.footer-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.main {
+    flex-basis: 370px;
+    margin-left: 20px;
+}
+.main p {
+    font-size: 16px;
+    color:white;
+    text-transform: capitalize;
+}
+.policy {
+    flex-basis: 245px;
+}
+.policy ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.policy ul li{}
+.policy ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    transition: .3s;
+}
+.policy ul li a:hover{
+    color: rgb(188, 8, 50);
+}
+
+/* 10. About Area */
+.about-area{}
+.section-title {
+    position: relative;
+    padding-bottom: 75px;
+}
+.section-title h4 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about-us {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+.main-about {
+    flex-basis: 705px;
+}
+.about-infos{}
+.about-infos h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    color: rgb(188, 8, 50);
+}
+.about-infos p {
+    font-size: 17px;
+    line-height: 25px;
+}
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 33px 0;
+}
+.single-about {
+    flex-basis: 325px;
+}
+.single-about h4 {
+    font-size: 21px;
+    padding-bottom: 9px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 67);
+}
+.single-about p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.main-about-img {
+    flex-basis: 410px;
+}
+.main-about-img img{
+    width: 100%;
+}
+
+/* 11. Login Banner */
+.login-banner, .reg-banner {
+    border: 1px solid transparent;
+    padding: 22px;
+    background-color: white;
+    color: white;
+    width: 35%;
+    margin-left: 759px;
+}
+.login-banner h1, .reg-banner h1 {
+    font-size: 35px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+.login-banner h4 {
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    font-weight: 100;
+}
+.login-banner h4 a {
+    padding-left: 3px;
+    color: rgb(188, 8, 50)
+}
+.login-banner form{}
+.login-banner input, .reg-banner input{
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.login-banner input:first-child {
+    margin-top: 40px;
+}
+.login-lebel {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.login-lebel input[type="checkbox"]{
+    width: 15px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.login-lebel h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 200;
+    color: #363636;
+    padding-left: 5px;
+}
+.login-link, .reg-link{
+    text-align: center;
+    margin: 45px 0 35px;
+}
+.login-link a, .reg-link a{
+    font-size: 17px;
+    background-color: rgb(0, 0, 67);
+    color: white;
+    transition: .3s;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.login-link a:hover{
+    background-color: rgb(188, 8, 50);
+    color: white;
+}
+
+/* 12. Instructor Area */
+.instructor-area{
+    background-color: rgb(247, 247, 247);
+}
+.instructor-info{}
+.instructor-info h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.profile {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 0;
+}
+.single-image {
+    flex-basis: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.single-image img {
+    width: 100%;
+}
+.profile-info {
+    background-color: rgb(0, 0, 67);
+    padding: 20px 35px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.profile-info h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.profile-info h4 {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+.prof-address{}
+.prof-address ul{
+    padding-bottom: 15px;
+}
+.prof-address ul li{}
+.prof-address ul li i {
+    width: 27px;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    font-size: 18px;
+}
+.prof-address ul li a {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+}
+.prof-link {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 5px 145px;
+}
+.prof-link a{}
+.prof-link a i {
+    color: white;
+    font-size: 18px;
+    width: 25px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.prof-edu {
+    flex-basis: 620px;
+}
+.prof-edu h1 {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(188, 8, 50);
+}
+.prof-edu h4 {
+    font-size: 18px;
+    padding: 10px 0 0 0;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 200;
+}
+.prof-edu p {
+    font-size: 17px;
+    line-height: 24px;
+    color: black;
+    padding: 15px 0;
+    font-weight: 200;
+}
+.education, .experienced {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 10px  0px 10px 0;
+    border: 1px solid transparent;
+    padding: 14px;
+    background: white;
+    border-radius: 10px;
+}
+.prof-edu h3 {
+    text-transform: capitalize;
+    padding: 13px 0;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+}
+.education ul{}
+.education ul li, .experienced ul li{
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.education ul li:first-child{
+    color: black;
+    font-weight: 700;
+}
+.experienced ul li:first-child{
+    color: black;
+    font-weight: 700;
+}
+.experienced{}
+.experienced ul{}
+.experienced ul li{}
+
+/* 13. Contact Area */
+.contact-area{
+    background-color: rgb(247, 247, 247);
+    padding-top: 80px;
+}
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
+.contact-title {
+    position: relative;
+    padding-bottom: 60px;
+}
+.contact-title h1{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 35px;
+}
+.contact-form {
+    flex-basis: 736px;
+    border: 1px solid transparent;
+    padding: 27px;
+    background-color: white;
+    border-radius: 6px;
+}
+.contact-form h3{
+    font-size: 26px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    color: rgb(188, 8, 50);
+}
+.contact-form p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: ;
+}
+.contact-text{}
+.contact-text form {
+    display: flex;
+    flex-flow: row wrap;
+}
+.contact-text input {
+    width: 334px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid  #d5d5d5;
+    border-radius: 5px;
+}
+.contact-text input[type='email']{
+    margin-left: 11px;
+    border: 2px solid  #d5d5d5;
+    border-radius: 5px;
+}
+.cont-massage {
+    margin-top: 25px;
+}
+.cont-massage form{}
+.cont-massage input {
+    width: 100%;
+    height: 46px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid  #d5d5d5;
+    border-radius: 5px;
+}
+.cont-massage textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid  #d5d5d5;
+    border-radius: 5px;
+}
+.cont-massage input[type='submit'] {
+    font-size: 16px;
+    padding-right: 10px;
+    font-weight: 700;
+    background: rgb(0, 0, 67);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: .7s;
+    cursor: pointer;
+}
+.cont-massage input[type='submit']:hover{
+    background-color: rgb(188, 8, 50);
+}
+.contact-info {
+    flex-basis: 386px;
+}
+.single-contact {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 16px 0;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 10px;
+}
+.single-contact i {
+    width: 43px;
+    height: 43px;
+    border: 1px solid transparent;
+    line-height: 43px;
+    text-align: center;
+    background-color: rgb(0, 0, 67);
+    margin: 11px 0;
+    color: white;
+    border-radius: 50%;
+    transition: .7s;
+}
+.single-contact i:hover{
+    background-color: rgb(188, 8, 50);
+}
+.single-contact h2 {
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-left: 17px;
+    color: black;
+}
+.single-contact h2 span {
+    display: block;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 14px;
+}
+.section {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 67);
+    margin-top: 83px;
+}
+
+/* 14. Map Area */
+.map-area{}
+iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 75px;
+}
+
+/* 15. Registration Area */
+.reg-banner {
+	width: 45%;
+	margin-left: 640px;
+}
+.reg-banner h1{}
+.reg-banner form{}
+.reg-banner input {
+    font-size: 17px;
+}
+.reg-link{}
+.reg-link a:hover{
+    background-color: rgb(188, 8, 50);
+}
+
+/* 16. Student Profile Area */
+.profile-area {
+    background-color: #f4f3f3;
+}
+.customar-info {
+    padding-bottom: 30px;
+    position: relative;
+}
+.customar-info h3 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 74px;
+}
+.customar-profile {
+    border: 1px solid transparent;
+    padding: 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.pro-menu{}
+.pro-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 70px 0 0;
+}
+.pro-menu ul li {
+    position: relative;
+}
+.pro-menu ul li a {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+}
+.pro-menu ul li ul {
+    position: absolute;
+    background-color: rgb(0, 0, 67);
+    width: 148px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+    padding: 5px 0;
+    margin-left: -20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.pro-menu ul li ul li {
+    display: block;
+    margin: 3px 25px 12px -2px;
+}
+.pro-menu ul li ul li a {
+    font-size: 16px;
+    color: white;
+    padding: 5px 17px;
+    transition: 0.5s;
+}
+.pro-menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+.pro-menu ul li ul li a:hover{
+    color:  rgb(188, 8, 50);
+}
+.std-single {
+
+}
+.single-pro {}
+.single-pro h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 20px 0 0;
+    color: rgb(188, 8, 50);
+}
+.single-pro span {
+    text-transform: uppercase;
+}
+.single-pro form{}
+.single-pro input {
+    width: 560px;
+    height: 45px;
+    margin-top: 17px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.single-pro input:last-child {
+    margin-bottom: 20px;
+}
+.single-pro a {
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    background-color:rgb(0, 0, 67);
+    transition: .7s;
+}
+.single-pro a:hover{
+    background-color: rgb(188, 8, 50);
+}
+
+/* 17. Wishlist Area */
+.wishlist-area{}
+.wish-info {
+    position: relative;
+    padding-bottom: 57px;
+}
+.wish-info::before{}
+.wish-info:after{}
+.wish-info h1 {
+    text-align: center;
+    padding-bottom: 54px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.wishlist{}
+.wishlist form{}
+.wishlist textarea {
+    width: 100%;
+    height: 160px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.wishlist input[type="submit"] {
+    width: 145px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 67);
+    background-color: rgb(0, 0, 67);
+    color: white;
+    transition: .6s;
+}
+.wishlist input[type="submit"]:hover{
+    border-color: rgb(188, 8, 50);
+    background-color: rgb(188, 8, 50);
+}

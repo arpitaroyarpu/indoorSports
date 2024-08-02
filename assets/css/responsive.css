@@ -1,0 +1,471 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .menu ul li a:hover {
+        color: rgb(188, 8, 50);
+    }
+    .banner-area {
+	padding: 257px 0;
+	height: auto;
+}
+    .banner-info {
+        flex-basis: 61%;
+    }
+    .banner-info h1, .same-banner h1 {
+        font-size: 40px;
+    }
+    .banner-contact {
+        flex-basis: 37%;
+    }
+    .about-info {
+        flex-basis: 475px;
+    }
+    .about-info p {
+        font-size: 17px;
+    }
+    .about-img {
+        flex-basis: 480px;
+    }
+    .single-img {
+        flex-basis: 242px;
+    }
+    .single-images {
+        flex-basis: 237px;
+    }
+    .single-facilities {
+        flex-basis: 310px;
+    }
+    .link a {
+        margin-left: 97px;
+    }
+    .instructor {
+        margin: 66px 0 0;
+    }
+    .single-instructor {
+        flex-basis: 311px;
+    }
+    .review {
+        flex-basis: 750px;
+    }
+    .foot-outer ul {
+        margin: 0 335px;
+    }
+    .footer-main {
+        margin: 40px 27px;
+    }
+    .main {
+        margin-left: 0;
+    }
+    /* About Area */
+    .main-about {
+        flex-basis: 645px;
+    }
+    .single-about {
+        flex-basis: 300px;
+    }
+    .main-about-img {
+        flex-basis: 306px;
+    }
+    /* Contact Area */
+    .contact-form {
+        flex-basis: 595px;
+    }
+    .contact-text input {
+        width: 264px;
+    }
+    .contact-info {
+        flex-basis: 345px;
+    }
+    .section {
+        height: 2px;
+    }
+    .login-banner{
+        width: 43%;
+        margin-left: 530px;
+    }
+    .reg-banner {
+        width: 45%;
+        margin-left: 520px;
+    }
+    /* Instructor Profile */
+    .instructor-info h3 {
+        padding-bottom: 45px;
+    }
+    .single-image {
+        flex-basis: 400px;
+    }
+    .profile-info {
+        padding: 20px 10px;
+    }
+    .prof-address ul li a {
+        font-size: 15px;
+    }
+    .prof-link {
+        margin: 5px 130px;
+    }
+    .prof-edu {
+        flex-basis: 545px;
+    }
+}
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .header-left ul li {
+        margin-right: 25px;
+    }
+    .header-left ul li a {
+        font-size: 16px;
+    }
+    .logo a {
+        font-size: 33px;
+    }
+    .menu {
+        margin: 0 0 0 0;
+    }
+    .menu ul li {
+        margin-left: 28px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+    }
+    .menu ul li a:hover {
+        color: rgb(188, 8, 50);
+    }
+    .enroll {
+        padding: 7px 25px;
+    }
+    .search input {
+        width: 180px;
+        height: 41px;
+    }
+    .search a {
+        padding: 8px 17px;
+    }
+    .banner-area {
+        padding: 190px 0;
+        height: auto;
+    }
+    .same-banner h1 {
+        font-size: 47px;
+    }
+    .same-banner p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .banner {
+        padding-top: 65px;
+        flex-direction: column;
+    }
+    .banner-info {
+        flex-basis: 100%;
+    }
+    .banner-contact {
+        flex-basis: 100%;
+        margin-top: 44px;
+    }
+    .about-info {
+        flex-basis: 100%;
+    }
+    .about-img {
+        flex-basis: 755px;
+        margin-top: 49px;
+    }
+    .single-img {
+        flex-basis: 379px;
+    }
+    .single-images {
+        flex-basis: 370px;
+    }
+    .single-facilities p {
+        font-size: 16px;
+        padding: 7px;
+    }
+    .link a {
+        margin-left: 62px;
+    }
+    .about-info a{
+        padding: 8px 25px;
+        font-size: 16px;
+    }
+    .single-facilities {
+        flex-basis: 100%;
+        margin-bottom: 35px;
+    }
+    .link a {
+        margin-left: 320px;
+        padding: 12px 35px;
+    }
+    .instructor {
+        margin: 67px 0 0;
+    }
+    .single-instructor {
+        flex-basis: 244px;
+    }
+    .info h1 {
+        font-size: 20px;
+    }
+    .info span {
+        font-size: 14px;
+    }
+    .blog-info h1 {
+        font-size: 40px;
+    }
+    .review {
+        flex-basis: 530px;
+    }
+    .foot-outer ul {
+        margin: 0px 230px;
+    }
+    .main {
+        margin-left: 0;
+    }
+    .main-about {
+        flex-basis: 100%;
+    }
+    .single-about {
+        flex-basis: 360px;
+    }
+    .main-about-img {
+        flex-basis: 100%;
+    }
+    .contact-form {
+        flex-basis: 100%;
+    }
+    .contact-text input {
+        width: 341px;
+    }
+    .contact-info {
+        flex-basis: 100%;
+    }
+    .single-contact {
+        padding: 10px 19px;
+    }
+    .section {
+        height: 2px;
+    }
+    .login-banner {
+        width: 50%;
+        margin-left: 370px;
+    }
+    .reg-banner {
+        width: 60%;
+        margin-left: 300px;
+    }
+    .single-image {
+        flex-basis: 100%;
+    }
+    .prof-edu {
+        flex-basis: 100%;
+        margin-top: 35px;
+    }
+    
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .header-left ul {
+        margin-left: 109px;
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logo a {
+        font-size: 50px;
+    }
+    .menu {
+        margin: 0 0 0 0;
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        /* margin-left: 45px; */
+        margin-top: 20px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu ul li a:hover {
+        color: rgb(188, 8, 50);
+    }
+    .enroll {
+        /* margin-left: 30px; */
+        margin-top: 40px;
+    }
+    .search {
+        margin-top: 40px;
+    }
+    .search input {
+        width: 194px;
+    }
+    .banner-area {
+        height: auto;
+    }
+    .common-banner {
+        padding: 230px 0;
+    }
+    .same-banner {
+        margin-top: 253px;
+    }
+    .same-banner h1 {
+        font-size: 43px;
+    }
+    .same-banner p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .banner {
+        padding-top: 288px;
+        flex-direction: column;
+    }
+    .banner-info {
+        flex-basis: 100%;
+    }
+    .banner-contact {
+        flex-basis: 100%;
+        margin-top: 47px;
+    }
+    .about-info {
+        flex-basis: 100%;
+    }
+    .about-img {
+        flex-basis: 100%;
+        margin-top: 36px;
+    }
+    .single-img {
+        flex-basis: 177px;
+    }
+    .single-images {
+        flex-basis: 173px;
+    }
+    .courses {
+        flex-direction: column;
+    }
+    .single-facilities {
+        flex-basis: 100%;
+        margin-bottom: 26px;
+    }
+    .link a {
+        margin-left: 128px;
+    }
+    .instructor {
+        margin: 67px 0 0;
+        flex-direction: column;
+    }
+    .single-instructor {
+        flex-basis: 100%;
+        margin-bottom: 26px;
+    }
+    .blog-info h1 {
+        font-size: 43px;
+    }
+    .single-blog {
+        margin: 38px 0;
+        flex-direction: column;
+    }
+    .blog-img {
+        flex-basis: 100%;
+    }
+    .blog-img img {
+        margin-bottom: 17px;
+    }
+    .review {
+        flex-basis: 100%;
+    }
+    .review h2 {
+        text-align: center;
+    }
+    .review p {
+        text-align: center;
+    }
+    .foot-outer ul {
+        margin: 0px 4px;
+        padding-top: 29px;
+    }
+    .footer-main {
+        flex-direction: column;
+    }
+    .main {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    .policy {
+        flex-basis: 100%;
+    }
+    .policy ul li {
+        margin-left: 18px;
+        margin-top: 22px;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .single-about {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .main-about-img {
+        flex-basis: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        flex-basis: 100%;
+    }
+    .contact-text input {
+        width: 100%;
+    }
+    .contact-text input[type="email"] {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+    .section {
+        height: 2px;
+    }
+    .single-pro {
+        margin-top: 65px;
+    }
+    .single-pro input {
+        width: 100%;
+    }
+    .login-banner{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 350px;
+    }
+    .reg-banner {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 310px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+
+}
